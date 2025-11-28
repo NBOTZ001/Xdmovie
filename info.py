@@ -49,10 +49,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'nawab_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY',False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'earn4link.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'a0e1b1cbf18d8d9adbd7c51e8d6407e4aab07111')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'earn4link.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'a0e1b1cbf18d8d9adbd7c51e8d6407e4aab07111')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlprime.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e677d437b0f0995ae56d0761c687df23b70081da')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'urlprime.com')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'e677d437b0f0995ae56d0761c687df23b70081da')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
